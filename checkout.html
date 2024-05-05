@@ -1,0 +1,432 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="images/LOGO-removebg-preview.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="css/tiny-slider.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>DC cases</title>
+	</head>
+
+	<body>
+
+		<!-- Start Header/Navigation -->
+		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+			<div class="container">
+				
+				<img src="images/LOGO-removebg-preview.png" class="img-fluid main-logo">
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Inicio</a>
+						</li>
+						<li><a class="nav-link" href="shop.html">Cases</a></li>
+						<li><a class="nav-link" href="shop2 - accesorios.html">Accesorios</a></li>
+						<li><a class="nav-link" href="about.html">Nosotros</a></li>
+						<!--li><a class="nav-link" href="blog.html">Blog</a></li>  -->
+						<li><a class="nav-link" href="contact.html">Contáctanos</a></li>
+					</ul>
+
+					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+						<li><a class="nav-link opacity-aniamtion" href="checkout.html"><img src="images/cart.svg"></a></li>
+					</ul>
+				</div>
+			</div>
+				
+		</nav>
+		<!-- End Header/Navigation -->
+
+		<!-- End Hero Section -->
+
+		<div class="untree_co-section">
+		    <div class="container">
+		      <div class="row">
+		        <div class="col-md-6 mb-5 mb-md-0">
+		          <h2 class="h3 mb-3 text-black">Detalles de la compra</h2>
+		          <div class="p-3 p-lg-5 border bg-white">
+		            <div class="form-group">
+		              <label for="c_country" class="text-black">Distrito <span class="text-danger">*</span></label>
+		              <select id="c_country" class="form-control">
+		                <option value="1">Cercado de Lima</option>    
+		                <option value="2">Callao</option>    
+		                <option value="3">San Isidro</option>    
+		                <option value="4">San Borja</option>    
+		                <option value="5">San Miguel</option>    
+		                <option value="6">Surco</option>    
+		                <option value="7">Miraflores</option>    
+		                <option value="8">La Victoria</option>    
+		                <option value="9">San Juan de Lurigancho</option>    
+		              </select>
+		            </div>
+		            <div class="form-group row">
+		              <div class="col-md-6">
+		                <label for="c_fname" class="text-black">Primer nombre <span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_fname" name="c_fname" placeholder="Escribe tu primer nombre">
+		              </div>
+		              <div class="col-md-6">
+		                <label for="c_lname" class="text-black">Segundo nombre <span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_lname" name="c_lname" placeholder="Escribe tu segundo nombre">
+		              </div>
+		            </div>
+
+		            <div class="form-group row">
+		              <div class="col-md-12">
+		                <label for="c_companyname" class="text-black">Nombre de Empresa </label>
+		                <input type="text" class="form-control" id="c_companyname" name="c_companyname" placeholder="Escribe el nombre de tu empresa">
+		              </div>
+		            </div>
+
+		            <div class="form-group row">
+		              <div class="col-md-12">
+		                <label for="c_address" class="text-black">Dirección <span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_address" name="c_address" placeholder="Dirección de entrega">
+		              </div>
+		            </div>
+
+		            <div class="form-group mt-3">
+		              <input type="text" class="form-control" placeholder="Departamento, Casa, Manzana (opcional)">
+		            </div>
+
+		            <div class="form-group row">
+		              <div class="col-md-6">
+		                <label for="c_state_country" class="text-black">Estado/País <span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_state_country" name="c_state_country" placeholder="Ejemplo: Perú">
+		              </div>
+		              <div class="col-md-6">
+		                <label for="c_postal_zip" class="text-black">Codigo postal<span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_postal_zip" name="c_postal_zip" placeholder="Ejemplo: 15011">
+		              </div>
+		            </div>
+
+		            <div class="form-group row mb-5">
+		              <div class="col-md-6">
+		                <label for="c_email_address" class="text-black">Correo Electronico<span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_email_address" name="c_email_address" placeholder=" Ejemplo: dccasespe@gmail.com">
+		              </div>
+		              <div class="col-md-6">
+		                <label for="c_phone" class="text-black">Numero de celular<span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_phone" name="c_phone" placeholder="Ejemplo: 945766987">
+		              </div>
+		            </div>
+
+		            <div class="form-group">
+		              <label for="c_order_notes" class="text-black">Especificaciones del pedido</label>
+		              <textarea name="c_order_notes" id="c_order_notes" cols="30" rows="5" class="form-control" placeholder="Escribe aquí detalles para la entrega de tu pedido..."></textarea>
+		            </div>
+
+		          </div>
+		        </div>
+		        <div class="col-md-6">
+
+		          <div class="row mb-5">
+		            <div class="col-md-12">
+		              <h2 class="h3 mb-3 text-black">Cupones</h2>
+		              <div class="p-3 p-lg-5 border bg-white">
+
+		                <label for="c_code" class="text-black mb-3">Ingrese el cupón de descuento aquí:</label>
+		                <div class="input-group w-75 couponcode-wrap">
+		                  <input type="text" class="form-control me-2" id="c_code" placeholder="Código del cupón" aria-label="Coupon Code" aria-describedby="button-addon2">
+		                  <div class="input-group-append">
+		                    <button class="btn btn-black btn-sm" type="button" id="button-addon2">Aplicar</button>
+		                  </div>
+		                </div>
+
+		              </div>
+		            </div>
+		          </div>
+
+		          <div class="row mb-5">
+		            <div class="col-md-12">
+		              <h2 class="h3 mb-3 text-black">Resumen de la orden</h2>
+		              <div class="p-3 p-lg-5 border bg-white">
+		                <table class="table site-block-order-table mb-5">
+		                  <thead>
+		                    <th>Producto</th>
+		                    <th>Total</th>
+		                  </thead>
+		                  <tbody>
+		                    <tr>
+		                      <td>Case Amarillo <strong class="mx-2">x</strong> 1</td>
+		                      <td>$25.00</td>
+		                    </tr>
+		                    <tr>
+		                      <td>Case Negro <strong class="mx-2">x</strong> 3</td>
+		                      <td>$75.00</td>
+		                    </tr>
+		                    <tr>
+		                      <td class="text-black font-weight-bold"><strong>Subtotal del carrito</strong></td>
+		                      <td class="text-black">$100.00</td>
+		                    </tr>
+							<tr>
+								<td class="text-black font-weight-bold"><strong>Costo de envío</strong></td>
+								<td class="text-black">$5.00</td>
+							  </tr>
+		                    <tr>
+		                      <td class="text-black font-weight-bold"><strong>Total de la orden</strong></td>
+		                      <td class="text-black font-weight-bold"><strong>$105.00</strong></td>
+		                    </tr>
+		                  </tbody>
+		                </table>
+
+		                <div class="border p-3 mb-3">
+		                  <h3 class="h6 mb-0"><a class="d-block" data-bs-toggle="collapse" href="#collapsecheque" role="button" aria-expanded="false" aria-controls="collapsecheque">Pagar con Tarjeta de Débito/Crédito</a></h3>
+
+		                  <div class="collapse" id="collapsecheque">
+		                    <div class="py-2">
+		                      <p class="mb-0">
+								<div class="form-group row">
+									<div class="col-md-6">
+									  <label for="c_fname" class="text-black">Nombres <span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_fname" name="c_fname" placeholder="Escribe tus nombres">
+									</div>
+									<div class="col-md-6">
+									  <label for="c_lname" class="text-black">Apellidos <span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_lname" name="c_lname" placeholder="Escribe tus apellidos">
+									</div>
+								  </div>
+			  
+								  <div class="form-group row">
+									<div class="col-md-12">
+									  <label for="c_companyname" class="text-black">DNI </label>
+									  <input type="text" class="form-control" id="c_companyname" name="c_companyname" placeholder="Escribe tu DNI">
+									</div>
+								  </div>
+			  
+								  <div class="form-group row">
+									<div class="col-md-12">
+									  <label for="c_address" class="text-black">Numero de Tarjeta <span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_address" name="c_address" placeholder="4056 3874 3573 5387">
+									</div>
+								  </div>
+			  
+								  <div class="form-group row">
+									<div class="col-md-6">
+									  <label for="c_state_country" class="text-black">Fecha de Vencimiento <span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_state_country" name="c_state_country" placeholder="Ejemplo: 10/23">
+									</div>
+									<div class="col-md-6">
+									  <label for="c_postal_zip" class="text-black">Código CVV<span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_postal_zip" name="c_postal_zip" placeholder="Ejemplo: 151">
+									</div>
+								  </div>
+			  
+								  <div class="form-group row mb-5">
+									<div class="col-md-6">
+									  <label for="c_email_address" class="text-black">Correo Electronico<span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_email_address" name="c_email_address" placeholder=" Ejemplo: dccasespe@gmail.com">
+									</div>
+									<div class="col-md-6">
+									  <label for="c_phone" class="text-black">Numero de celular<span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_phone" name="c_phone" placeholder="Ejemplo: 945766987">
+									</div>
+								  </div>
+							  </p>
+		                    </div>
+		                  </div>
+		                </div>
+
+		                <div class="border p-3 mb-5">
+		                  <h3 class="h6 mb-0"><a class="d-block" data-bs-toggle="collapse" href="#collapsepaypal" role="button" aria-expanded="false" aria-controls="collapsepaypal">Pagar con MercadoPago</a></h3>
+
+		                  <div class="collapse" id="collapsepaypal">
+		                    <div class="py-2">
+		                      <p class="mb-0">
+								<div class="form-group row">
+									<div class="col-md-6">
+									  <label for="c_fname" class="text-black">Nombres <span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_fname" name="c_fname" placeholder="Escribe tus nombres">
+									</div>
+									<div class="col-md-6">
+									  <label for="c_lname" class="text-black">Apellidos <span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_lname" name="c_lname" placeholder="Escribe tus apellidos">
+									</div>
+								  </div>
+			  
+								  <div class="form-group row">
+									<div class="col-md-12">
+									  <label for="c_companyname" class="text-black">DNI </label>
+									  <input type="text" class="form-control" id="c_companyname" name="c_companyname" placeholder="Escribe tu DNI">
+									</div>
+								  </div>
+			  
+								  <div class="form-group row">
+									<div class="col-md-12">
+									  <label for="c_address" class="text-black">Numero de Tarjeta <span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_address" name="c_address" placeholder="4056 3874 3573 5387">
+									</div>
+								  </div>
+			  
+								  <div class="form-group row">
+									<div class="col-md-6">
+									  <label for="c_state_country" class="text-black">Fecha de Vencimiento <span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_state_country" name="c_state_country" placeholder="Ejemplo: 10/23">
+									</div>
+									<div class="col-md-6">
+									  <label for="c_postal_zip" class="text-black">Código CVV<span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_postal_zip" name="c_postal_zip" placeholder="Ejemplo: 151">
+									</div>
+								  </div>
+			  
+								  <div class="form-group row mb-5">
+									<div class="col-md-6">
+									  <label for="c_email_address" class="text-black">Correo Electronico<span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_email_address" name="c_email_address" placeholder=" Ejemplo: dccasespe@gmail.com">
+									</div>
+									<div class="col-md-6">
+									  <label for="c_phone" class="text-black">Numero de celular<span class="text-danger">*</span></label>
+									  <input type="text" class="form-control" id="c_phone" name="c_phone" placeholder="Ejemplo: 945766987">
+									</div>
+								  </div>
+							  </p>
+		                    </div>
+		                  </div>
+		                </div>
+
+		                <div class="form-group">
+		                  <button class="btn btn-black btn-lg py-3 btn-block" onclick="window.location='thankyou.html'">Finalizar compra</button>
+		                </div>
+
+		              </div>
+		            </div>
+		          </div>
+
+		        </div>
+		      </div>
+		      <!-- </form> -->
+		    </div>
+		  </div>
+
+		  <footer class="footer-section">
+			<div class="container relative">
+
+
+				<div class="row g-5 mb-5">
+					<div class="col-lg-4">
+						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">DC Cases<span></span></a></div>
+						<p class="mb-4">Conoce más acerca de nosotros visitando nuestras distintas redes sociales y no te pierdas las mejores ofertas en cases y accesorios para tu iphone</p>
+
+						<ul class="list-unstyled custom-social">
+							<li><a href="https://www.facebook.com/DCCases/"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+							<li><a href="https://www.instagram.com/dccasesperu/"><span class="fa fa-brands fa-instagram"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-8">
+						<div class="row links-wrap">
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">Nosotros</a></li>
+									<li><a href="#">Cases</a></li>
+					
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">Dirección</a></li>
+									<li><a href="#">Accesorios</a></li>
+									
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">RUC: 2060119541</a></li>
+									<li><a href="#">EMAIL:ventas@dccasesperu.com</a></li>
+									<li><a href="#">TEL: +51 987 721 047</a></li>
+								
+							
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				
+			
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="subscription-form w-100">
+							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>¡No te pierdas de las ofertas y novedades!</span></h3>
+
+							<div class="row row-cols-lg-12">
+								<form action="#" class="col-12 col-lg-4 g-3 mb-4">
+									<div class="col-auto mb-2">
+										<input type="text" class="form-control" placeholder="Escribe tu nombre">
+									</div>
+									<div class="col-auto mb-2">
+										<input type="email" class="form-control" placeholder="Escribe tu Correo">
+									</div>
+									<div class="col-auto">
+										<button class="btn btn-primary">
+											<span class="fa fa-paper-plane"></span>
+										</button>
+									</div>
+									
+								</form>
+	
+								<div class="col-12 col-lg-8">
+									<div class="container-map">
+										<iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.118681227367!2d-77.0165613248569!3d-12.172322444251357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b781ba82865d%3A0x69a424de316ef979!2sDC%20Cases!5e0!3m2!1ses-419!2spe!4v1702501215439!5m2!1ses-419!2speZ7vqY"></iframe>
+									  </div>
+								</div>
+
+							</div>
+							
+
+						</div>
+					</div>
+
+				</div>
+
+				<div class="border-top copyright">
+					<div class="row pt-4">
+						<div class="col-lg-6">
+							<p class="mb-2 text-center text-lg-start">Todos los derechos <script>document.write(new Date().getFullYear());</script> Reservados a TeamISIL © 2023 DC CASES</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/custom.js"></script>
+		<div id="whatsapp-container">
+			<a href="whatsapp://send?phone=+51933445851" target="_blank">
+			  <i class="fa-brands fa-whatsapp fa-bounce fa-2x" style="color: #2cc502;"></i>
+			</a>
+		  </div>
+	</body>
+	
+
+</html>
